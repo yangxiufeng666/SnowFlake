@@ -18,8 +18,6 @@ public class IDSequence extends AbsSequence{
     }
     /**
      * 获取下一个ID
-     *
-     * @return
      */
     public synchronized Long nextId() {
         long timestamp = timestamp();

@@ -27,6 +27,7 @@ public class IdWorker {
      * <p>
      * 获取去掉"-" UUID
      * </p>
+     * @return string
      */
     public static synchronized String get32UUID() {
         return UUID.randomUUID().toString().replace("-", "");
