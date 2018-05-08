@@ -10,6 +10,15 @@ Twitter-Snowflake算法产生的背景相当简单，为了满足Twitter每秒�
 
 ![Snowflake算法核心](art/snowflake-64bit.jpg)
 
+## Maven
+ ```
+ <dependency>
+     <groupId>com.github.babylikebird</groupId>
+     <artifactId>com.snowflake.id</artifactId>
+     <version>0.0.1</version>
+ </dependency>
+```
+
 ## 获取ID
 ![ID](art/id.jpg)
 
